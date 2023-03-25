@@ -1,0 +1,296 @@
+@media all and (max-width: 1200px) {
+  .section1,
+  .section3 {
+    flex-direction: column;
+  }
+
+  .section1,
+  .section3,
+  .section3__bg {
+    height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .section1__block {
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .section3__descr {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .header__sale {
+    width: 40%;
+  }
+
+  .section1__item p {
+    margin-top: 10px;
+  }
+
+  .download__link {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .navbar__list_item img {
+    width: 10%;
+  }
+
+  .navbar__login_freetrial {
+    height: 30px;
+  }
+
+  .sale__btn_left,
+  .sale__btn_right {
+    height: 20px;
+  }
+
+  .section1,
+  .section3,
+  .section3__bg {
+    height: 700px;
+  }
+
+  .header__partners-icon img {
+    width: 15%;
+  }
+
+  .header__input,
+  .header__btn_try-it {
+    height: 30px;
+  }
+
+  .section2__card-list img {
+    width: 20%;
+  }
+
+  .section4__descr,
+  .download h3 {
+    line-height: 24px;
+  }
+
+  .download__link {
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+  }
+
+  .footer__navbar {
+    gap: 10%;
+  }
+
+  .footer__install {
+    gap: 10px;
+  }
+
+  .footer__install img {
+    width: 70%;
+  }
+
+  .footer__line {
+    top: 70%;
+  }
+
+  .footer__second-section {
+    margin-top: 10%;
+    height: 50px;
+  }
+
+  .footer__second-section img {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .container {
+    width: 90%;
+  }
+  .navbar__list,
+  .navbar__login {
+    display: none;
+  }
+
+  .navbar__btn_burger {
+    display: block;
+    width: 8%;
+  }
+
+  .navbar__logo {
+    font-size: larger;
+  }
+
+  .header__sale {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .header__sale a {
+    font-size: 3vw;
+  }
+
+  .header__title {
+    font-size: 4vw;
+  }
+
+  .header_descr {
+    font-size: 2vw;
+  }
+
+  .header__try-it {
+    width: 50%;
+  }
+
+  .header__input,
+  .header__btn_try-it {
+    height: 20px;
+  }
+
+  .header__input,
+  .header__btn_try-it a {
+    font-size: 2vw;
+  }
+
+  .section1,
+  .section3,
+  .section3__bg {
+    height: 450px;
+  }
+
+  .header__trust {
+    font-size: 2vw;
+  }
+
+  .section1__block {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .section1__item {
+    width: 40%;
+    height: 60px;
+  }
+
+  .section1__item h4 {
+    font-size: 3vw;
+  }
+
+  .section1__item p {
+    font-size: 2vw;
+  }
+
+  .section2 h2 {
+    font-size: 4vw;
+  }
+
+  .section2__card-list_item {
+    width: 40%;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .section2__card-list_item img {
+    width: 30%;
+  }
+
+  .section2__card-list_item h4 {
+    font-size: 2.5vw;
+  }
+
+  .section2__card-list_item p {
+    font-size: 1.8vw;
+  }
+
+  .section3__descr {
+    width: 80%;
+  }
+
+  .section3__descr h2 {
+    font-size: 4vw;
+  }
+
+  .section3__descr p {
+    font-size: 2vw;
+  }
+
+  .section3__descr button {
+    width: 50%;
+  }
+
+  .section4 h2 {
+    font-size: 4vw;
+    width: 70%;
+  }
+
+  .section4__descr {
+    font-size: 2vw;
+    line-height: 10px;
+    width: 55%;
+  }
+
+  .section4__cards_item img {
+    width: 30%;
+  }
+
+  .section4__cards_item h4 {
+    font-size: 2vw;
+  }
+
+  .section4__cards_item p {
+    font-size: 2vw;
+    margin-top: 2px;
+  }
+
+  .download {
+    height: 100px;
+  }
+
+  .download h3 {
+    font-size: 2.5vw;
+    line-height: normal;
+    width: 50%;
+  }
+
+  .download__link img {
+    width: 100%;
+  }
+
+  .footer__first-section {
+    flex-wrap: wrap;
+  }
+
+  .footer__navbar {
+    gap: 5%;
+  }
+
+  .footer__navbar h5 {
+    font-size: 2vw;
+  }
+
+  .footer__navbar_item a {
+    font-size: 2vw;
+  }
+
+  .footer__install {
+    display: none;
+  }
+
+  .footer__second-section p {
+    font-size: 1.3vw;
+  }
+
+  .footer__second-section div {
+    width: 35%;
+  }
+
+  .footer__second-section div img {
+    width: 60%;
+  }
+}
