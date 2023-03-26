@@ -35,6 +35,11 @@
   .download__link {
     width: 50%;
   }
+
+  .section1 img,
+  .section3 img {
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 768px) {

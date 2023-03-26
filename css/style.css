@@ -172,6 +172,10 @@ header {
   font-size: 1.1vw;
 }
 
+.sect-2__graph {
+  width: 100%;
+}
+
 .header__trust {
   color: #4e5a65;
   font-weight: 700;
@@ -211,10 +215,8 @@ header {
   width: 35%;
 }
 
-.sect-2__graph,
-.section1 img,
-.section3 img {
-  width: 100%;
+.section1 img {
+  width: 60%;
 }
 
 .section1__item {
@@ -354,6 +356,10 @@ header {
   color: #fff;
 }
 
+.section3 img {
+  width: 55%;
+}
+
 /* section-3 style end */
 
 /* section-4 style start */
@@ -447,7 +453,7 @@ header {
 
 .download__link {
   display: flex;
-  gap: 2%;
+  justify-content: space-around;
   width: 40%;
 }
 
